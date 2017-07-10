@@ -4,7 +4,7 @@
   "description": "A hello world for photon",
   "author": "zerodevgroup",
   "license": "MIT",
-  "modelData": "./config/data",
+  "data": "./config/data",
   "ux": "./config/ux",
   "adminToken": "3c0f44197e10e2cb4a2e0fe749b88d03",
   "reportToken": "21b7ab69c9605bdfee75bd492a5b9e6f",
