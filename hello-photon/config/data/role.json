@@ -1,0 +1,29 @@
+{
+  "name": "role",
+  "sort": "name",
+  "loadGroup": "a",
+  "limit": "100",
+  "columns": [
+    {
+      "name": "name",
+      "type": "isText"
+    }
+  ],
+  "parentItem": {},
+  "embeddedItems": [],
+  "calculations": [],
+  "filters": [],
+  "initializeActions": [],
+  "hiddenColumns": [],
+  "documents": [
+    {
+        "name": "Administrator"
+    },
+    {
+        "name": "Agent"
+    },
+    {
+        "name": "Sales"
+    }
+  ]
+}

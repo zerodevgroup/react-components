@@ -1,0 +1,30 @@
+{
+  "name": "devicestatus",
+  "title": "Device Statuses",
+  "sort": "name",
+  "limit": "100",
+  "loadGroup": "a",
+  "schema": {
+    "name": "String"
+  },
+  "columns": [
+    {
+      "name": "name",
+      "type": "isText"
+    }
+  ],
+  "parentItem": {},
+  "embeddedItems": [],
+  "calculations": [],
+  "filters": [],
+  "initializeActions": [],
+  "hiddenColumns": [],
+  "documents": [
+    {
+        "name": "Normal"
+    },
+    {
+        "name": "Offline"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "devicetype",
+  "title": "Device Types",
+  "sort": "name",
+  "loadGroup": "a",
+  "limit": "100",
+  "schema": {
+    "name": "String"
+  },
+  "columns": [
+    {
+      "name": "name",
+      "type": "isText"
+    }
+  ],
+  "parentItem": {},
+  "embeddedItems": [],
+  "calculations": [],
+  "filters": [],
+  "initializeActions": [],
+  "hiddenColumns": [],
+  "documents": [
+    {
+      "name": "Light"
+    },
+    {
+      "name": "Thermostat"
+    }
+  ]
+}

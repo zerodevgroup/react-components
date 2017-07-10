@@ -1,0 +1,37 @@
+{
+  "name": "hellophoton",
+  "title": "HelloPhoton",
+  "description": "A hello world for photon",
+  "author": "zerodevgroup",
+  "license": "MIT",
+  "modelData": "./config/data",
+  "ux": "./config/ux",
+  "adminToken": "3c0f44197e10e2cb4a2e0fe749b88d03",
+  "reportToken": "21b7ab69c9605bdfee75bd492a5b9e6f",
+  "generators": [
+    {
+      "type": "reference",
+      "name": "reference-web",
+      "base": "react-web"
+    },
+    {
+      "type": "reference",
+      "name": "reference-mobile",
+      "base": "react-native"
+    },
+    {
+      "type": "reference",
+      "name": "reference-api",
+      "base": "node-express"
+    }
+  ],
+  "dbName": "blah",
+  "dbUrl": "mongodb://localhost",
+  "dbPort": "27017",
+  "apiName": "api",
+  "apiUrl": "localhost",
+  "apiPort": "4000",
+  "appName": "blah",
+  "appUrl": "localhost",
+  "appPort": "8080"
+}

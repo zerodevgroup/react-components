@@ -1,0 +1,41 @@
+{
+  "name": "device",
+  "default": true,
+  "sort": "name",
+  "limit": "100",
+  "loadGroup": "d",
+  "columns": [
+    {
+      "name": "name",
+      "type": "isText"
+    },
+    {
+      "name": "description",
+      "type": "isText"
+    },
+    {
+      "name": "devicetypeId",
+      "type": "isSelect",
+      "selectData": "devicetypes"
+    },
+    {
+      "name": "devicestatusId",
+      "type": "isSelect",
+      "selectData": "devicestatuses"
+    }
+  ],
+  "parentItem": {},
+  "embeddedItems": [],
+  "calculations": [],
+  "filters": [],
+  "initializeActions": [],
+  "hiddenColumns": [],
+  "documents": [
+    {
+      "name": "Thermostat",
+      "description": "NEST Thermostat",
+      "_devicestatusName": "Normal",
+      "_devicetypeName": "Thermostat"
+    }
+  ]
+}

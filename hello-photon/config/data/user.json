@@ -1,0 +1,64 @@
+{
+  "name": "user",
+  "sort": "name",
+  "loadGroup": "b",
+  "limit": "100",
+  "columns": [
+    {
+      "name": "name",
+      "type": "isText"
+    },
+    {
+      "name": "email",
+      "type": "isText"
+    },
+    {
+      "name": "password",
+      "type": "isText"
+    },
+    {
+      "name": "token",
+      "type": "isText"
+    },
+    {
+      "name": "roleId",
+      "type": "isSelect",
+      "selectData": "roles"
+    }
+  ],
+  "parentItem": {},
+  "embeddedItems": [],
+  "calculations": [],
+  "filters": [],
+  "initializeActions": [
+    {
+      "type": "hat",
+      "field": "token"
+    }
+  ],
+  "hiddenColumns": [
+  ],
+  "documents": [
+    {
+      "token": "7120314e3e2f59f06ec1f4827cc1524e",
+      "email": "sean.wright@zerodevgroup.com",
+      "name": "Sean Wright",
+      "password": "7alamo4",
+      "_roleName": "Administrator"
+    },
+    {
+      "token": "30af457fc1da20b9be00ec82a70491ff",
+      "email": "brock.wright@zerodevgroup.com",
+      "name": "Brock Wright",
+      "password": "7alamo4",
+      "_roleName": "Administrator"
+    },
+    {
+      "token": "a80035fbdfb30be664cd50c1b4bf5bc0",
+      "email": "bill.board@gmail.com",
+      "name": "Bill Board",
+      "password": "billy",
+      "_roleName": "Agent"
+    }
+  ]
+}
