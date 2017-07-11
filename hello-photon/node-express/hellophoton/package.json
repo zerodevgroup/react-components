@@ -1,0 +1,19 @@
+{
+  "name": "hellophoton",
+  "version": "1.0.0",
+  "description": "A hello world for photon",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zerodevgroup",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "cors": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
