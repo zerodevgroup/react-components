@@ -13,7 +13,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import { Alert } from './Components/Alert'
+import { Home } from './Components/Home'
 
 export default class hellophoton extends Component {
   render() {
@@ -22,7 +22,6 @@ export default class hellophoton extends Component {
         <Text style={styles.welcome}>
           Welcome to hellophoton!
         </Text>
-        <Alert title={'Drae'} message={'Wazzzzuupp'} />
       </View>
     );
   }
