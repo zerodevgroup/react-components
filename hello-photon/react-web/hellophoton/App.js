@@ -1,9 +1,18 @@
 import React from 'react';
+import DeviceList from './Containers/DeviceList'
+import DevicestatusList from './Containers/DevicestatusList'
+import DevicetypeList from './Containers/DevicetypeList'
+import RoleList from './Containers/RoleList'
+import UserList from './Containers/UserList'
 class App extends React.Component {
   render() {
     return (
       <div>
-        Hello World hellophoton!!!
+        <DeviceList/>
+        <DevicestatusList/>
+        <DevicetypeList/>
+        <RoleList/>
+        <UserList/>
       </div>
     )
   }
